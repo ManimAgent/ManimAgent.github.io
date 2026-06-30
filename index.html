@@ -104,6 +104,11 @@
       margin-bottom: 0.5rem;
     }
     .affiliations sup { color: var(--primary-color); font-weight: 700; }
+
+    /* Uniform author color: linked and unlinked names look identical (no first-author highlight) */
+    .publication-authors a { color: var(--text-primary) !important; font-weight: 500 !important; }
+    .publication-authors a:hover { color: var(--primary-color) !important; }
+    .publication-authors sup { color: var(--text-secondary); font-weight: 600; }
     .affiliation-logos {
       display: flex;
       flex-wrap: wrap;
@@ -295,16 +300,16 @@
             <h1 class="title is-1 publication-title">ManimAgent: Self-Evolving Multimodal Agents for Visual Education</h1>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><a href="https://github.com/jwj1342" target="_blank" rel="noopener">Wenjia Jiang</a><sup>1</sup>,</span>
-              <span class="author-block">Zongyuan Cai<sup>2</sup>,</span>
+              <span class="author-block"><a href="https://jwj1342.github.io" target="_blank" rel="noopener">Wenjia Jiang</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://zongyuan-cai.github.io/" target="_blank" rel="noopener">Zongyuan Cai</a><sup>2</sup>,</span>
               <span class="author-block">Yuanhang Shao<sup>2</sup>,</span>
               <span class="author-block">Chenru Wang<sup>3</sup>,</span>
               <span class="author-block">Boyan Han<sup>2</sup>,</span>
-              <span class="author-block">Zhixue Song<sup>4</sup>,</span>
+              <span class="author-block"><a href="https://github.com/KMnO4-zx" target="_blank" rel="noopener">Zhixue Song</a><sup>4</sup>,</span>
               <span class="author-block">Keyu Chen<sup>5</sup>,</span>
-              <span class="author-block">Shengwei An<sup>3</sup>,</span>
-              <span class="author-block">Xu Yang<sup>2</sup>,</span>
-              <span class="author-block">Zhou Yang<sup>1</sup></span>
+              <span class="author-block"><a href="https://answ.in/" target="_blank" rel="noopener">Shengwei An</a><sup>3</sup>,</span>
+              <span class="author-block"><a href="https://yangxuntu.github.io/" target="_blank" rel="noopener">Xu Yang</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://homepage.zhouyang.me/" target="_blank" rel="noopener">Zhou Yang</a><sup>1</sup></span>
             </div>
 
             <div class="affiliations has-text-centered">
